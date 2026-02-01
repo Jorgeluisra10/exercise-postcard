@@ -1,0 +1,64 @@
+* {
+	min-height: 10px;
+	font-family: "Indie Flower", cursive;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.header-title {
+	width: 85%;
+}
+
+.postcard-header h1 {
+	font-size: 25px !important;
+	width: 340px;
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.postcard-body {
+	display: flex;
+	font-size: 17px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(206, 199, 199);
+}
